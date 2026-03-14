@@ -54,6 +54,3 @@ models/
 *.pem
 id_rsa*
 id_ed25519*
-RELEASE.md
-SECURITY_CHECK.md
-PERSONALITY_DESIGN.md
