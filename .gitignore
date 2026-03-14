@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Runtime data
+data/
+memory/
+
+# Development docs (not for npm publish)
+doc/
+docs/
+
+# Test files and data
+tests/
+test_data/
+test-data/
+*.test.ts
+*.spec.ts
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Model files (too large for repo)
+models/
+*.onnx
+*.bin
+
+# SSH Keys / Secrets
+*_key
+*_key.pub
+*.pem
+id_rsa*
+id_ed25519*

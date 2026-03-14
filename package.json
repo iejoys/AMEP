@@ -1,0 +1,61 @@
+{
+  "name": "amep-protocol",
+  "version": "1.0.0",
+  "description": "AHIVE Memory Encoding Protocol - 智能体记忆压缩与语义检索协议库",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "memory",
+    "compression",
+    "protocol",
+    "ai",
+    "agent",
+    "ahive",
+    "embedding",
+    "semantic-search",
+    "vector",
+    "bge"
+  ],
+  "author": "星未来软件工作室 StarFuture Software Studio (AHIVE.CN)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahive-org/amep-protocol"
+  },
+  "homepage": "https://github.com/ahive-org/amep-protocol#readme",
+  "bugs": {
+    "url": "https://github.com/ahive-org/amep-protocol/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "ts-node tests/vector-index-test.ts",
+    "test:mock": "ts-node tests/bge-real-test.ts",
+    "prepublishOnly": "npm run build",
+    "convert:model": "python scripts/convert_to_onnx.py"
+  },
+  "peerDependencies": {
+    "@huggingface/transformers": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@huggingface/transformers": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "^3.0.0",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "SECURITY.md"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "session_f2753f022a04",
+  "userId": "test_user",
+  "agentId": "assistant",
+  "startTime": "2026-03-14T02:47:17.790Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "我喜欢使用深色模式",
+      "timestamp": "2026-03-14T02:47:17.796Z"
+    },
+    {
+      "role": "assistant",
+      "content": "好的，我会记住您喜欢深色模式",
+      "timestamp": "2026-03-14T02:47:17.796Z"
+    }
+  ],
+  "messageCount": 2,
+  "status": "ended",
+  "lastActivity": "2026-03-14T02:47:17.796Z",
+  "endTime": "2026-03-14T02:47:17.796Z"
+}

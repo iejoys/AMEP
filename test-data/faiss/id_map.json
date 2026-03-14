@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "backend": "pure-js",
+  "dimensions": 512,
+  "idToInternal": {
+    "mem_001": 0,
+    "mem_002": 1,
+    "mem_003": 2,
+    "mem_004": 3,
+    "mem_005": 4
+  },
+  "nextInternalId": 5,
+  "savedAt": "2026-03-13T06:11:03.947Z"
+}
