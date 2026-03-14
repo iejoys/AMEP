@@ -900,8 +900,8 @@ ${formattedMemories.map(m => `
       }
       
       // 尝试提取包含 needRetrieval 的 JSON
-      // 使用更精确的正则，匹配以 {"needRetrieval" 开头的扁平对象
-      const jsonMatch = response.match(/\{"needRetrieval"[^}]*\}/);
+      // 修复：支持多行格式化的 JSON，允许 { 和 "needRetrieval" 之间有空白
+      const jsonMatch = response.match(/\{\s*"needRetrieval"[\s\S]*?\}/);
       if (jsonMatch) {
         try {
           const parsed = JSON.parse(jsonMatch[0]);
