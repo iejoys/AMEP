@@ -82,6 +82,42 @@ export {
   ForgetStats,
 } from './forget';
 
+// 预处理模块 (v1.1.0 新增)
+export {
+  ContentFilter,
+  DEFAULT_FILTER_RULES,
+} from './preprocessing/ContentFilter';
+export {
+  PreprocessorConfig,
+  PreprocessResult,
+  DEFAULT_PREPROCESSOR_CONFIG,
+  ContentFilterRule,
+  DeduplicationConfig,
+  SummarizerConfig,
+  LengthLimit,
+} from './preprocessing/types';
+
+// 注入模块 (v1.1.0 新增)
+export {
+  MemoryPriorityEvaluator,
+} from './injection/MemoryPriorityEvaluator';
+export {
+  PrioritizedMemoryInjector,
+} from './injection/PrioritizedMemoryInjector';
+export {
+  TokenCounter,
+} from './injection/TokenCounter';
+export {
+  MemoryPriorityType,
+  MemoryPriority,
+  ContextBudgetConfig,
+  InjectionStats,
+  UserPriorityRules,
+  DEFAULT_BUDGET_128K,
+  DEFAULT_USER_RULES,
+  PRIORITY_KEYWORDS,
+} from './injection/types';
+
 // 主服务类型
 export { ProcessQueryResult } from './amep-service';
 

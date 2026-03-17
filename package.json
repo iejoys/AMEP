@@ -1,6 +1,6 @@
 {
   "name": "amep-protocol",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "AHIVE Memory Encoding Protocol - 智能体记忆压缩与语义检索协议库",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,9 @@
     "embedding",
     "semantic-search",
     "vector",
-    "bge"
+    "bge",
+    "priority-injection",
+    "context-management"
   ],
   "author": "星未来软件工作室 StarFuture Software Studio (AHIVE.CN)",
   "license": "MIT",
@@ -54,6 +56,7 @@
     "dist",
     "README.md",
     "LICENSE",
+    "CHANGELOG.md",
     "CONTRIBUTING.md",
     "SECURITY.md"
   ]
