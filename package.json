@@ -36,7 +36,7 @@
     "convert:model": "python scripts/convert_to_onnx.py"
   },
   "peerDependencies": {
-    "@huggingface/transformers": "^3.0.0"
+    "@huggingface/transformers": "^4.0.1"
   },
   "peerDependenciesMeta": {
     "@huggingface/transformers": {
@@ -44,10 +44,10 @@
     }
   },
   "devDependencies": {
-    "@huggingface/transformers": "^3.0.0",
-    "@types/node": "^20.11.0",
+    "@huggingface/transformers": "^4.0.1",
+    "@types/node": "^25.5.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "typescript": "^6.0.2"
   },
   "engines": {
     "node": ">=16.0.0"
